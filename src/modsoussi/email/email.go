@@ -12,7 +12,7 @@ func main() {
 	client := mail.ClientWithKey("VmvF8-Qd5AiZEVl16PHIoQ")
 	message := &mail.Message{}
 	message.AddRecipient("mo@daycationapp.com", "Mo Soussi", "to")
-	message.FromEmail = "no-reply@daycationapp.com"
+	message.FromEmail = "zuck@daycationapp.com"
 	message.FromName = "Daycation"
 	message.Subject = "Welcome to Daycation"
 	message.Text = "You won!"

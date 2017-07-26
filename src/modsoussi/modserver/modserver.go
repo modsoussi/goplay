@@ -209,7 +209,7 @@ func main() {
 // Helper Methods
 
 func init() {
-	sess := getMongoSession()
+	sess = getMongoSession()
 	store = mongostore.NewMongoStore(sess.DB("local").C("sessions"), 3600*24*7, true, []byte("nsansansa"))
 }
 
