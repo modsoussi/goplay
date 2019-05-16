@@ -1,1 +1,6 @@
 bin/**
+pkg/**
+help/**
+bsons
+go111
+jwt
