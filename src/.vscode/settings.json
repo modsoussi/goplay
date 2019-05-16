@@ -1,9 +1,0 @@
-{
-  "git.ignoreLimitWarning": true,
-  "go.autocompleteUnimportedPackages": true,
-  "go.enableCodeLens": {
-    "references": false,
-    "runtest": true
-  },
-  "go.formatTool": "goformat",
-}
