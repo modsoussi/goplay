@@ -1,12 +1,12 @@
 package main
 
 import (
-	"net/http"
 	"fmt"
+	"net/http"
 )
 
 func main() {
-	http.HandleFunc("/protected", func (w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/protected", func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, "protected")
 	})
 
